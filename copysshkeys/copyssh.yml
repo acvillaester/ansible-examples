@@ -1,0 +1,7 @@
+---
+- hosts: test
+  user: root
+  sudo: yes
+
+  roles:
+  - copysshkeys
